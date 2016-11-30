@@ -20,6 +20,9 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -58,7 +61,8 @@
                     </li>
                     <li>
                     <li class="dropdown">
-                        <a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <a href="services.html">Services</a>
+                        <!-- <a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                         Services
                             <span class="caret"></span>
                         </a>
@@ -69,7 +73,7 @@
                             <li>
                                 <a href="web-design.html">WEBSITE DESIGN</a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li>
                         <a href="gallery.html">Gallery</a>
@@ -88,31 +92,21 @@
 
         <div class="row">
             <div class="box">
-                <div class="col-lg-12">
+<!--                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">GRAPHIC DESIGN
                         <strong>SERVICES</strong>
                     </h2>
                     <hr>
-                </div>
+                </div> -->
                 <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/deeprock-feature.jpg" alt="">
-                    <h2> Clever Options to Fit Your Business Needs
-                        <hr>
-                        <!-- <small>October 13, 2013</small> -->
-                    </h2>
-                    <p>
-                       <strong>Please Choose one of the provided options which fits your need the most.</strong>
-                       </p>
-                       <p> Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                        <hr> 
-                    <a class="btn btn-primary" role="button" data-toggle="collapse" href="#standardServices" aria-expanded="false" aria-controls="standardServices">
-                        Standard Services
-                    </a>
-                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#premiumServices" aria-expanded="false" aria-controls="premiumServices">
-                        Premium Services
-                    </button>
-                    <hr>
+                    <!-- <img class="img-responsive img-border img-full" src="img/deeprock-feature.jpg" alt=""> -->
+                    <ul id="product_tabs" class="nav nav-tabs" role="tablist">
+                    </ul>
+                    <div class="tab-content" id="product_panels">
+                    </div>
+
+<!--                     <hr>
                     <div class="collapse" id="standardServices">
                         <div class="well">
                             <h4><strong>Standard Services</strong></h4>
@@ -150,7 +144,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -161,22 +155,19 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-2 text-center">
+                <div class="col-lg-3 text-center">
                     <p><a href="index.html">HOME</a></p>
                 </div>
                 <div class="col-lg-2 text-center">
                     <p><a href="about.html">ABOUT</a></p>
                 </div>
                 <div class="col-lg-2 text-center">
-                    <p><a href="graphic-design.html">GRAPHIC DESIGN</a></p>
-                </div>
-                <div class="col-lg-2 text-center">
-                    <p><a href="website-design.html">WEBSITE DESIGN</a></p>
+                    <p><a href="services.html">SERVICES</a></p>
                 </div>
                 <div class="col-lg-2 text-center">
                     <p><a href="gallery.html">GALLERY</a></p>
                 </div>
-                <div class="col-lg-2 text-center">
+                <div class="col-lg-3 text-center">
                     <p><a href="contact.html">CONTACT</a></p>
                 </div>
                 <div class= "col-lg-12 text-center">
